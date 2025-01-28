@@ -108,7 +108,7 @@ h1 {
     border-radius: 10px;
 }
 
-.section-playlist.section-playlist__content {
+.section-playlist. .section-playlist__content {
     display: flex;
     flex-direction: column;
 }
