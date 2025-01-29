@@ -1,2 +1,3 @@
 # imers-o-Alura
-Minha primeira imersão na Alura (Front_End) - Objetivo da imersão: reeleitura da landing page do Spotify.
+Minha primeira imersão na Alura (Front_End).
+Objetivo da imersão: reeleitura da _landing page_ do Spotify.
