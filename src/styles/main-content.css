@@ -13,7 +13,7 @@
     align-items: center;
     padding: 5px;
     margin: 10px;
-    margin-left: 318px;
+    margin-left: 309px;
     margin-right: 4px;
     margin-top: 6px;
     border-radius: 8px;
@@ -125,9 +125,9 @@
 
 /*PLAYLIST*/
 .playlist-container {
-    height: 74vh;
-    padding-top: 6px;
-    margin-left: 318px;
+    height: 78vh;
+    padding-top: 3px;
+    margin-left: 309px;
     margin-right: 4px;
     border-radius: 10px;
     background: rgb(242,167,173);
@@ -142,7 +142,7 @@
     display: flex;
     justify-content: space-around;
     color: #fff;
-    font-size: 32px;
+    font-size: 30px;
     font-weight: 700;
     margin-bottom: 48px;
     padding: 0 789px 0 0;
@@ -157,11 +157,12 @@
     font-style: oblique;
     padding: 0 600px 0 0;
     margin-top: -45px;
+    margin-bottom: -12px;
 }
 
 /* SCROLL */
 .offer__scroll-container {
-    max-height: 43vh;
+    max-height: 55vh;
     margin: 24px;
     overflow-y: auto;
   }
@@ -266,14 +267,14 @@
 }
 
 .grid-container {
-    gap: var(--grid-gap);
+    grid-gap:24px;
     display: grid;
-    grid-template-columns: repeat(var(--column-count), minmax(o, 1fr));
-    min-width: var(--min-container-width);
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    min-width: 767px;
 }
 
 .artist-card {
-    background: #8784d9;
+    background: #3c4ca6;
     border-radius: 8px;
     -ms-flex: 1;
     flex: 1;
@@ -281,11 +282,11 @@
     padding: 16px;
     position: relative;
     transition: background-color 0.3s ease;
-    width: 20%;
+    width: 67%;
 }
 
 .artist-card:hover {
-    background-color: aquamarine;
+    background-color: #8784d9;
 }
 
 .card-img {
